@@ -20,6 +20,9 @@ categories = ["POMDPs", "Autonomous vehicles"]
   focal_point = ""
 +++
 
+[Schratter, et al](https://arxiv.org/abs/1904.11566) \\
+Submitted 2019/04/25
+
 ### Objective
 Determine if a POMDP policy can be learned to reduce unnecessary braking from pure AEB systems.
 

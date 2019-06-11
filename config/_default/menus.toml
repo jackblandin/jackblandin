@@ -11,12 +11,17 @@
 [[main]]
   name = "Experiments & Exploration"  # Title of the link.
   url = "experiments/"  # Widget Page folder name.
-  weight = 50  # Position of the link in the navigation bar.
+  weight = 20  # Position of the link in the navigation bar.
 
 [[main]]
   name = "Paper Summaries"  # Title of the link.
   url = "paper_summaries/"  # Widget Page folder name.
-  weight = 60  # Position of the link in the navigation bar.
+  weight = 30  # Position of the link in the navigation bar.
+
+[[main]]
+  name = "Posts"  # Title of the link.
+  url = "posts/"  # Widget Page folder name.
+  weight = 40  # Position of the link in the navigation bar.
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
