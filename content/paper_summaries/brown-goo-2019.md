@@ -1,6 +1,6 @@
 +++
 title = "Extrapolating Beyond Suboptimal Demonstrations via Inverse Reinforcement Learning from Observations"
-date = 2020-03-21:25:13-05:00
+date = 2020-03-21T11:25:13-05:00
 draft = false
 summary = "Uses ranked demonstrations to learn a state-based reward function that assigns greater total return to higher-ranked trajectories."
 
