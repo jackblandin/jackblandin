@@ -20,9 +20,12 @@ categories = []
   focal_point = ""
 +++
 
-[Daniel S. Brown, Wonjoon Goo, Prabhat Nagarajan, Scott Niekum](https://arxiv.org/abs/1904.06387), UT-Austin Submitted 2019/04/12
+[Daniel S. Brown, Wonjoon Goo, Prabhat Nagarajan, Scott Niekum](https://arxiv.org/abs/1904.06387)
+UT-Austin
+Submitted 2019/04/12
 
-Overview
+### Overview
+
 * Trajectory-ranked Reward Extrapolation (T-REX).
 * Uses ranked demonstrations to learn a state-based reward function that assigns greater total return to higher-ranked trajectories.
 * Allows us to identify features that are correlated with rankings, in a manner that can be extrapolated beyond the demonstrations.
