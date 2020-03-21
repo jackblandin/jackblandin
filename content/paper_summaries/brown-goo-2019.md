@@ -20,8 +20,8 @@ categories = []
   focal_point = ""
 +++
 
-[Daniel S. Brown, Wonjoon Goo, Prabhat Nagarajan, Scott Niekum](https://arxiv.org/abs/1904.06387)
-UT-Austin
+[Daniel S. Brown, Wonjoon Goo, Prabhat Nagarajan, Scott Niekum](https://arxiv.org/abs/1904.06387) \\
+UT-Austin \\
 Submitted 2019/04/12
 
 ### Overview
