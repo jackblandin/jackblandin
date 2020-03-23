@@ -6,8 +6,8 @@ summary = "Learns from both successful and failed demonstrations."
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Imitation Learning", "Inverse Reinforcement Learning"]
-categories = []
+tags = []
+categories = ["Imitation Learning", "Inverse Reinforcement Learning"]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -25,7 +25,7 @@ categories = []
 [Shiarlis, Kyriacos, Joao Messias, and S. A. Whiteson. "Inverse reinforcement learning from failure." (2016).](https://ora.ox.ac.uk/objects/uuid:8593deb6-f16c-4545-a732-472625eaffb3/download_file?file_format=pdf&safe_filename=LearningFromFailure.pdf&type_of_work=Conference)
 
 ### Authors
-Name | Facility
+Name | Affiliation
 --- | ---
 Kyriacos Shiarlis | Informatics Institute University of Amsterdam
 Joao Messias | Informatics Institute University of Amsterdam

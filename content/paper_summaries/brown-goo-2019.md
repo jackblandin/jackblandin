@@ -6,8 +6,7 @@ summary = "Uses ranked demonstrations to learn a state-based reward function tha
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["IL", "IRL"]
-categories = []
+categories = ["Imitation Learning", "Inverse Reinforcement Learning", "Risk"]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -20,9 +19,9 @@ categories = []
   focal_point = ""
 +++
 
-[Daniel S. Brown, Wonjoon Goo, Prabhat Nagarajan, Scott Niekum](https://arxiv.org/abs/1904.06387) \\
-UT-Austin \\
-Submitted 2019/04/12
+### Source
+
+[Brown, Daniel S., et al. "Extrapolating beyond suboptimal demonstrations via inverse reinforcement learning from observations." arXiv preprint arXiv:1904.06387 (2019).](https://arxiv.org/abs/1904.06387) \\
 
 ### Overview
 

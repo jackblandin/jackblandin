@@ -1,16 +1,13 @@
 ---
 title: "Research Paper Summaries"  # Add a page title.
-summary: "A list of all research paper's I've read as well as summaries for some of them."  # Add a page description.
 date: "2019-05-27T00:00:00Z"  # Add today's date.
 ---
 
-A list of all research paper's I've read as well as summaries for some of them.
-
-## All Papers read
-
-Date read | Authors | Date submitted | Name/Link to Summary | Tags
+Date read | Authors | Date submitted/ published | Name/Link to Summary | Categories
 --- | --- | --- | --- | ---
-2020&#x2011;03&#x2011;22 | Shiarlis, Messias |  2019-05-01 | [Inverse Reinforcement Learning from Failure]({{<ref "/paper_summaries/shiarlis-messias-2016.md">}}) | IL, IRL
+2020&#x2011;03&#x2011;23 | Finn, Christiano |  2016&#x2011;11&#x2011;11 | [A Connection Between Generative Adversarial Networks, Inverse Reinforcement Learning, and Energy-Based Models]({{<ref "/paper_summaries/finn-christiano-2016.md">}}) | IRL, GAN
+2020&#x2011;03&#x2011;23 | Zhou, Li |  2018&#x2011;07&#x2011;18 | [Safety-aware apprenticeship learning]({{<ref "/paper_summaries/zhou-li-2018.md">}}) | IL, IRL
+2020&#x2011;03&#x2011;22 | Shiarlis, Messias |  2019&#x2011;05&#x2011;01 | [Inverse Reinforcement Learning from Failure]({{<ref "/paper_summaries/shiarlis-messias-2016.md">}}) | IL, IRL
 2020&#x2011;03&#x2011;22 | Choi, Lee |  2019&#x2011;01&#x2011;25 | [Robust Learning From Demonstrations With Mixed Qualities Using Leveraged Gaussian Processes]({{<ref "/paper_summaries/choi-lee-2019.md">}}) | IL, IRL, RL
 2020&#x2011;03&#x2011;22 | Li, Kash |  2018&#x2011;10&#x2011;01 | [Learning good policies from suboptimal demonstrations]({{<ref "/paper_summaries/li-kash-hofmann-2018.md">}}) | IL, IRL, RL
 2020&#x2011;03&#x2011;21 | Brown, Goo |  2019&#x2011;04&#x2011;12 | [Extrapolating Beyond Suboptimal Demonstrations via Inverse Reinforcement Learning from Observations]({{<ref "/paper_summaries/brown-goo-2019.md">}}) | IL, IRL

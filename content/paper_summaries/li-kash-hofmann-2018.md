@@ -6,8 +6,8 @@ summary = "Shows how DQfD, which bootstraps RL algorithms with policies from dem
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Imitation Learning", "Inverse Reinforcement Learning", "Reinforcement Learning"]
-categories = []
+tags = []
+categories = ["Imitation Learning", "Inverse Reinforcement Learning", "Reinforcement Learning"]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -25,7 +25,7 @@ categories = []
 [Li, Yuxiang, Ian Kash, and Katja Hofmann. "Learning good policies from suboptimal demonstrations." In 14th European Workshop on Reinforcement Learning (EWRL 2018), vol. 2. 2018.](https://pdfs.semanticscholar.org/754c/dcf031965d49c7b7470db35ff26e4d309da0.pdf)
 
 ### Authors
-Name | Facility
+Name | Affiliation
 --- | ---
 Yuxiang Li | Google, London, UK ; Microsoft Research, Cambridge, UK
 Ian A. Kash | University of Illinois at Chicago ; Microsoft Research, Cambridge, UK
