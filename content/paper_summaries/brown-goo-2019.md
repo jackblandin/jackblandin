@@ -2,21 +2,8 @@
 title = "Extrapolating Beyond Suboptimal Demonstrations via Inverse Reinforcement Learning from Observations"
 date = 2020-03-21T11:25:13-05:00
 draft = false
-summary = "Uses ranked demonstrations to learn a state-based reward function that assigns greater total return to higher-ranked trajectories."
-
-# Tags and categories
-# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 categories = ["Imitation Learning", "Inverse Reinforcement Learning", "Risk"]
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-[image]
-  # Caption (optional)
-  caption = ""
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+summary = "Uses ranked demonstrations to learn a state-based reward function that assigns greater total return to higher-ranked trajectories."
 +++
 
 ### Source

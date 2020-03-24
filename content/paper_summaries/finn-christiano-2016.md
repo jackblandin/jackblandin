@@ -2,7 +2,8 @@
 title = "A Connection Between Generative Adversarial Networks, Inverse Reinforcement Learning, and Energy-Based Models"
 date = 2020-03-23T15:08:31-04:00
 draft = false
-categories = ["Inverse Reinforcement Learning", "Generative Adversarial Networks"]
+categories = ["Inverse Reinforcement Learning"]
+tags = ["Generative Adversarial Networks"]
 summary="Certain IRL methods are in fact mathematically equivalent to GANs. Discuss the interpretation of GANs as an algorithm for training energy-based models."
 +++
 

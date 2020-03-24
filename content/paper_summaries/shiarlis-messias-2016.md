@@ -1,5 +1,5 @@
 +++
-title = "Shiarlis Messias 2016"
+title = "Inverse Reinforcement Learning from Failure"
 date = 2020-03-22T14:50:12-04:00
 draft = false
 summary = "Learns from both successful and failed demonstrations."

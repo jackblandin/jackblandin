@@ -2,12 +2,8 @@
 title = "IPOMDP Lite: Towards Practical Planning to Predict and Exploit Intentions for Interacting with Self-Interested Agents"
 date = 2019-06-15T11:25:13-05:00
 draft = false
+categories = ["IPOMDP", "POMDP"]
 summary = "Investigate how intention prediction can be efficiently exploited and made practical in planning, leading to efficient intention-awareplanning frameworks."
-
-# Tags and categories
-# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-categories = ["IPOMDP", "POMDP", "Practical AI", "Autonomous Vehicles"]
-tags = []
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
