@@ -31,8 +31,13 @@ Yuxiang Li | Google, London, UK ; Microsoft Research, Cambridge, UK
 Ian A. Kash | University of Illinois at Chicago ; Microsoft Research, Cambridge, UK
 Katja Hofmann | Microsoft Research, Cambridge, UK
 
-### Summary
+### Key Points
 
 * Shows how DQfD, which bootstraps RL algorithms with policies from demonstrations, does not perform well when demonstrations are suboptimal.
-* Potential area of future research: Investigate potential of adaptively trading off between RL and IL.
 * Best agents are not necessarily the best teachers.
+* Demonstrates the potential to overcome this issue through a performance comparison between learner and demonstrator.
+* Explore adapting the weight of the demonstration on a global basis.
+
+### Reason for reading
+
+My reason for reading this paper was to identify its relation to a risk-based IL approach. This paper is concerned primarily with learning from suboptimal demonstrations, where _suboptimal_ refers to the task-based reward function. In order for this to be applicable to risk-based IL, the risk score would need to be built into the reward function, which defeats the purpose. Therefore, I don't think that this paper is worth exploring further for its relation to risk-based RL. Instead, we should look for IL papers that indicate a way of optimizing an additional reward that is not manifested in the observed demonstrations.
