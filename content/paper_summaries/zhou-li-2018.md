@@ -15,7 +15,10 @@ Name | Affiliation
 Weichao Zhou | Department of Electrical and Computer Engineering - Boston University
 Wenchao Li | Department of Electrical and Computer Engineering - Boston University
 
-### Summary
+### Reason for reading
+My reason for reading this paper was to identify its relation to a risk-based IL approach.
+
+### First pass
 
 * By embedding a probabilistic model checking inside AL, propose a novel counterexample-guided approach that can ensure safety while retaining performance of learnt policy.
 * Address problem that “even if all demos are safe, agent may still end up learning an unsafe policy”, due to the bias in only positive demonstrated examples.
@@ -26,3 +29,31 @@ Wenchao Li | Department of Electrical and Computer Engineering - Boston Universi
 * PCTL is a logic for stating probabilistic quantification of properties. E.g. “is the probability that the agent reaches the unsafe area within 10 steps smaller than 5%?”
 * Can use PCTL model checker to generate counter examples - e.g. the model checker can generate a policy with “probability agent reaches unsafe area within 10 steps is larger than 5%”
 * Counterexample generation can be viewed as supplementing negative examples for the learner. Thus, the learner will try to find a policy that not only imitates the expert’s demos, but also stays away from the failure scenarios as captured by the counterexamples.
+* **Note that "safety" here refers to states that have a high negative reward. Therefore, the reward function is not soley based on the task at hand.**
+* The safety check is an input to the algorithm. Therefore, it must be manually defined beforehand.
+* Different from learning from failures because failures don't need to actually be demonstrated. Basically, **this approach is just a constrained optimization problem, where the constraint is a safety-constraint manually defined beforehand.**
+
+### Second pass
+
+##### Problem formulation
+**Safety issue** definition in AL context - An agent following the learnt policy would have a higher probability of entering unsafe states than it should.
+
+Problem motivation
+* There are multiple reasons that can give rise to safety issues.
+* First, it is possible that the expert policy πE itself has a high probability of reaching the unsafe states.
+* Second, human experts often tend to perform only successful demonstrations that do not highlight the unwanted situations. This lack of negative examples in the training set can cause the learning agent to be unaware of the existence of those unsafe states. In particular, if there are states with high positive and high negative rewards, IL/AL will only learn the positive states since the expert will avoid the negative ones.
+
+##### Algorithm
+Given an initial policy π0, a specification Φ and a learning objective (as captured by epsilon) the framework iterates between a verifier and a learner to search for a policy π∗ that satisfies both Φ and epsilon. One invariant that this framework maintains is that all the πi’s in the candidate policy set satisfy Φ.
+
+* Start from an initial policy π0
+* Each time the learner learns a new policy, the verifier checks if the specification is satisfied.
+    * If true, then this policy is added to the candidate set
+    * Otherwise the verifier will generate a (minimal) counterexample and add it to the counterexample set.
+* During the learning phase, the learner uses both the counterexample set and candidate set to find a policy that is close to the (unknown) expert policy and far away from the counterexamples.
+* Converges when learned policy is epsilon-close to the expert policy and satisfies the specification.
+
+Apply same max-margin separation principle to maximize the distance between the candidate policies and the counterexamples.
+
+### Open questions
+
