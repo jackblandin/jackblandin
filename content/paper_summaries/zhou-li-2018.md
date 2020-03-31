@@ -53,6 +53,8 @@ Given an initial policy π0, a specification Φ and a learning objective (as cap
 * During the learning phase, the learner uses both the counterexample set and candidate set to find a policy that is close to the (unknown) expert policy and far away from the counterexamples.
 * Converges when learned policy is epsilon-close to the expert policy and satisfies the specification.
 
+![Algorithm Diagram](/img/paper_summaries/zhou-li-2018/algorithm-diagram.png)
+
 Apply same max-margin separation principle to maximize the distance between the candidate policies and the counterexamples.
 
 ### Open questions
