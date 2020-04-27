@@ -6,6 +6,9 @@ categories = ["Imitation Learning", "Inverse Reinforcement Learning"]
 summary = "Presents an algorithm (GCL) that is capable of learning arbitrary nonlinear cost functions. GCL also improves scalability to high-dimensional state and action spaces using an iterative (importance) sample-based method for estimating partition function Z in the MaxEntIRL formulation."
 +++
 
+### Summary
+Presents an algorithm (GCL) that is capable of learning arbitrary nonlinear cost functions. GCL also improves scalability to high-dimensional state and action spaces using an iterative (importance) sample-based method for estimating partition function Z in the MaxEntIRL formulation.
+
 ### Source
 [Finn, Chelsea, Sergey Levine, and Pieter Abbeel. "Guided cost learning: Deep inverse optimal control via policy optimization." International conference on machine learning. 2016.](http://www.jmlr.org/proceedings/papers/v48/finn16.pdf)
 

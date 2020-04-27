@@ -6,6 +6,9 @@ categories = ["Imitation Learning", "Inverse Reinforcement Learning", "Risk"]
 summary = "By embedding a probabilistic model checking inside AL, propose a novel counterexample-guided approach that can ensure safety while retaining performance of learnt policy."
 +++
 
+### Summary
+By embedding a probabilistic model checking inside AL, propose a novel counterexample-guided approach that can ensure safety while retaining performance of learnt policy.
+
 ### Source
 [Zhou, Weichao, and Wenchao Li. "Safety-aware apprenticeship learning." International Conference on Computer Aided Verification. Springer, Cham, 2018.](https://link.springer.com/chapter/10.1007/978-3-319-96145-3_38)
 
@@ -56,6 +59,10 @@ Given an initial policy π0, a specification Φ and a learning objective (as cap
 ![Algorithm Diagram](/img/paper_summaries/zhou-li-2018/algorithm-diagram.png)
 
 Apply same max-margin separation principle to maximize the distance between the candidate policies and the counterexamples.
+
+### Drawbacks
+* One major problem with this approach is the need to **manually specify the safety constraint beforehand.** The whole purpose of imitation learning is that it is difficult to specify the reward function. The sample principle applies here. Note that I am not 100% certain this is correct and I would need to read more thoroughly to verify.
+
 
 ### Open questions
 

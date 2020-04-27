@@ -4,6 +4,10 @@ date = 2019-06-15T11:25:13-05:00
 draft = false
 categories = ["IPOMDP", "POMDP"]
 summary = "Investigate how intention prediction can be efficiently exploited and made practical in planning, leading to efficient intention-awareplanning frameworks."
++++
+
+### Summary
+Investigate how intention prediction can be efficiently exploited and made practical in planning, leading to efficient intention-awareplanning frameworks.
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

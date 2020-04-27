@@ -47,3 +47,7 @@ Released under the [MIT](https://github.com/sourcethemes/academic-kickstart/blob
 ' New paper summary page
 hugo new paper_summaries/name-of-page.md
 ```
+
+```sh
+hugh serve ' Start local server
+```

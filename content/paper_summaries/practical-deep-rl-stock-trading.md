@@ -20,6 +20,9 @@ categories = ["Deep RL"]
   focal_point = ""
 +++
 
+### Summary
+Explores potential of Deep RL to maximize investment return.
+
 [Xiong, et al](https://arxiv.org/abs/1811.07522) \\
 Submitted 2018/11/19
 

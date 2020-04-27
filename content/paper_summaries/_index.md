@@ -5,6 +5,7 @@ date: "2019-05-27T00:00:00Z"  # Add today's date.
 
 Date read | Name/Link to Summary | Authors | Categories | Year
 --- | --- | --- | --- | ---
+2020&#x2011;04&#x2011;20 | [Adversarial Inverse Optimal Control for General Imitation Learning Losses and Embodiment Transfer]({{<ref "/paper_summaries/chen-monfort-2016.md">}}) | Chen, Monfort| IL | 2016
 2020&#x2011;03&#x2011;24 | [Guided Cost Learning]({{<ref "/paper_summaries/finn-levine-2016.md">}}) | Finn, Levine | IL | 2016
 2020&#x2011;03&#x2011;24 | [Guided Policy Search]({{<ref "/paper_summaries/levine-koltun-2013.md">}}) | Levine, Koltun | | 2013
 2020&#x2011;03&#x2011;24 | [Learning Deep Robot Controllers by Exploiting Successful and Failed Executions]({{<ref "/paper_summaries/esteban-rozo-2018.md">}}) | Esteban, Rozo | RL |  2018

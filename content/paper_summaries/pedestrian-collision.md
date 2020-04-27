@@ -4,17 +4,10 @@ date = 2019-05-26T14:17:38-05:00
 draft = false
 summary = "Minimize AEB system usage by using POMDP policy to adjust driving pattern based on possible road occlusions."
 categories = ["POMDPs"]
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-[image]
-  # Caption (optional)
-  caption = ""
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
 +++
+
+### Summary
+Minimize AEB system usage by using POMDP policy to adjust driving pattern based on possible road occlusions.
 
 [Schratter, et al](https://arxiv.org/abs/1904.11566) \\
 Submitted 2019/04/25

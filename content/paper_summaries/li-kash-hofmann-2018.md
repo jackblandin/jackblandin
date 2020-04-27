@@ -3,22 +3,12 @@ title = "Learning good policies from suboptimal demonstrations"
 date = 2020-03-22T14:29:03-04:00
 draft = false
 summary = "Shows how DQfD, which bootstraps RL algorithms with policies from demonstrations, does not perform well when demonstrations are suboptimal."
-
-# Tags and categories
-# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = []
 categories = ["Imitation Learning", "Inverse Reinforcement Learning", "Reinforcement Learning"]
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-[image]
-  # Caption (optional)
-  caption = ""
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
 +++
+
+### Summary
+Shows how DQfD, which bootstraps RL algorithms with policies from demonstrations, does not perform well when demonstrations are suboptimal.
 
 ### Source
 

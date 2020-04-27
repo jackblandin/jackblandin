@@ -7,6 +7,9 @@ tags = ["Generative Adversarial Networks"]
 summary="Certain IRL methods are in fact mathematically equivalent to GANs. Discuss the interpretation of GANs as an algorithm for training energy-based models."
 +++
 
+### Summary
+Certain IRL methods are in fact mathematically equivalent to GANs. Discuss the interpretation of GANs as an algorithm for training energy-based models.
+
 ### Source
 [Finn, Chelsea, et al. "A connection between generative adversarial networks, inverse reinforcement learning, and energy-based models." arXiv preprint arXiv:1611.03852 (2016).](https://arxiv.org/pdf/1611.03852.pdf)
 

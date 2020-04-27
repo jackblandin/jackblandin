@@ -3,9 +3,12 @@ title = "Extrapolating Beyond Suboptimal Demonstrations via Inverse Reinforcemen
 date = 2020-03-21T11:25:13-05:00
 draft = false
 categories = ["Imitation Learning", "Inverse Reinforcement Learning", "Risk"]
-summary = "While standard IRL approaches seek a reward function that justifies the demonstrations, TREX instead seeks a reward that explains the _ranking_ over demonstrations, allowing for potentially better-than-demonstrator performance."
+summary = "While standard IRL approaches seek a reward function that justifies the demonstrations, TREX instead seeks a reward that explains the ranking over demonstrations, allowing for potentially better-than-demonstrator performance."
 math = true
 +++
+
+### Summary
+While standard IRL approaches seek a reward function that justifies the demonstrations, TREX instead seeks a reward that explains the ranking over demonstrations, allowing for potentially better-than-demonstrator performance.
 
 ### Source
 

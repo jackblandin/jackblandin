@@ -6,6 +6,9 @@ summary="Learning from demonstrations with different unlabeled expert proficienc
 categories = ["Imitation Learning"]
 +++
 
+### Summary
+Learning from demonstrations with different unlabeled expert proficiencies, allowing for suboptimal demonstrations.
+
 ### Source
 
 [Choi, Sungjoon, Kyungjae Lee, and Songhwai Oh. "Robust learning from demonstrations with mixed qualities using leveraged gaussian processes." IEEE Transactions on Robotics 35, no. 3 (2019): 564-576.](http://rllab.snu.ac.kr/publications/papers/2016_icra_levopt.pdf)

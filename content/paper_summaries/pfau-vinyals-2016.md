@@ -7,6 +7,9 @@ tags = ["Generative Adversarial Networks"]
 summary = "Highlights connection between GANs and AC as bilevel optimization problems, where one model is optimized with respect to the optimum of another model. By highlighting the connection, the authors aim to encourage collaboration across communities."
 +++
 
+### Summary
+Highlights connection between GANs and AC as bilevel optimization problems, where one model is optimized with respect to the optimum of another model. By highlighting the connection, the authors aim to encourage collaboration across communities.
+
 ### Source
 [Pfau, David, and Oriol Vinyals. "Connecting generative adversarial networks and actor-critic methods." arXiv preprint arXiv:1610.01945 (2016).](https://arxiv.org/abs/1610.01945)
 

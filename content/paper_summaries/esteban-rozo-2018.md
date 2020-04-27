@@ -3,8 +3,11 @@ title = "Learning Deep Robot Controllers by Exploiting Successful and Failed Exe
 date = 2020-03-24T13:29:03-04:00
 draft = false
 categories = ["Reinforcement Learning"]
-summary = "TODO"
+summary = "This paper uses a modification of GPS that will learn from both successful and failed demonstrations. The modification allows the guiding policies to maximize the difference between failed policies."
 +++
+
+### Summary
+This paper uses a modification of GPS that will learn from both successful and failed demonstrations. The modification allows the guiding policies to maximize the difference between failed policies.
 
 ### Source
 [Esteban, Domingo, Leonel Rozo, and Darwin G. Caldwell. "Learning Deep Robot Controllers by Exploiting Successful and Failed Executions." 2018 IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids). IEEE, 2018.](https://www.researchgate.net/profile/Leonel_Rozo/publication/328477796_Learning_Deep_Robot_Controllers_by_Exploiting_Successful_and_Failed_Executions/links/5bd050254585152b14515e92/Learning-Deep-Robot-Controllers-by-Exploiting-Successful-and-Failed-Executions.pdf)
