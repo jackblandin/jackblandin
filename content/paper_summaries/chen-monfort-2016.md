@@ -74,7 +74,7 @@ $$
 \underset{\hat{\delta}}{\text{argmin }} \mathbb{E} \left[ \sum _{t=1} ^{T} loss(\hat{S}_t, \check{S}_t) \bigg| \check{\pi}, \tau, \hat{\delta}, \hat{\tau} \right] \tag{learner}
 $$
 $$
-\underset{\check{\delta}}{\text{argmin }} \mathbb{E} \left[ \sum _{t=1} ^{T} loss(\hat{S}_t, \check{S}_t) + \mathbf{w} \cdot \phi(\check{S}_t) \bigg| \check{\delta}, \tau, \hat{\pi}, \hat{\tau} \right] \tag{adversary}
+\underset{\check{\delta}}{\text{argmax }} \mathbb{E} \left[ \sum _{t=1} ^{T} loss(\hat{S}_t, \check{S}_t) + \mathbf{w} \cdot \phi(\check{S}_t) \bigg| \check{\delta}, \tau, \hat{\pi}, \hat{\tau} \right] \tag{adversary}
 $$
 
 reduces to a time-varying optimal control problem.

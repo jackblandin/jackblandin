@@ -19,9 +19,14 @@
   weight = 30  # Position of the link in the navigation bar.
 
 [[main]]
+  name = "Notes"  # Title of the link.
+  url = "notes/"  # Widget Page folder name.
+  weight = 40  # Position of the link in the navigation bar.
+
+[[main]]
   name = "Posts"  # Title of the link.
   url = "posts/"  # Widget Page folder name.
-  weight = 40  # Position of the link in the navigation bar.
+  weight = 50  # Position of the link in the navigation bar.
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
