@@ -23,7 +23,7 @@ organizations:
 picture: gohealth.png
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Reinforcement Learning and Partially Observable Markov Decision Processes (POMDPs).
+bio: Data Scientist and PhD student interested in Reinforcement Learning and Imitation Learning.
 
 interests:
 - Artificial Intelligence

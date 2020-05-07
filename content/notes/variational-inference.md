@@ -3,13 +3,13 @@ title = "Variational Inference"
 date = 2020-04-29T13:08:57-05:00
 draft = false
 tags = []
-categories = []
-summary="This is a written summary of the first half of Lecture 14 of UC Berkeley’s Fall 2018 CS294-112 Deep Reinforcement Learning course taught by Sergey Levine."
+categories = ["Reinforcement Learning", "Probability Theory"]
 math="true"
+summary = "CS294 L14 -- Show how to use Variational Inference to learn latent variable probabilistic models (i.e. a multimodal policy is a latent model; a POMDP is also a latent model)."
 +++
 
 ### Summary
-This is a written summary of the first half ofthe first half of  Lecture 14 of UC Berkeley's Fall 2018 [CS294-112 Deep Reinforcement Learning](http://rail.eecs.berkeley.edu/deeprlcourse-fa18/) course taught by Sergey Levine.
+This is a written summary of the first half of Lecture 14 of UC Berkeley's Fall 2018 [CS294-112 Deep Reinforcement Learning](http://rail.eecs.berkeley.edu/deeprlcourse-fa18/) course taught by Sergey Levine. Here are links to the course content:
 * [Lecture recording](https://www.youtube.com/watch?v=1bpQ0QDPGuI&list=PLkFD6_40KJIxJMR-j5A1mkxK26gh_qg37&index=12)
 * [Slides](http://rail.eecs.berkeley.edu/deeprlcourse-fa18/static/slides/lec-14.pdf)
 
