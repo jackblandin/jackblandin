@@ -8,10 +8,10 @@
   url = "#about"
   weight = 10
 
-[[main]]
-  name = "Experiments & Exploration"  # Title of the link.
-  url = "experiments/"  # Widget Page folder name.
-  weight = 20  # Position of the link in the navigation bar.
+# [[main]]
+#   name = "Experiments & Exploration"  # Title of the link.
+#   url = "experiments/"  # Widget Page folder name.
+#   weight = 20  # Position of the link in the navigation bar.
 
 [[main]]
   name = "Paper Summaries"  # Title of the link.

@@ -73,3 +73,5 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 [permalinks]
   paper_summaries = "/:year/:month/:day/:filename/"
   experiments     = "/:year/:month/:day/:filename/"
+  posts           = "/:year/:month/:day/:filename/"
+  notes           = "/:year/:month/:day/:filename/"
