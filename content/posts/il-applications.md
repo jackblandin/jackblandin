@@ -16,6 +16,7 @@ Sometimes, it is easier to get access to an expert demonstrating a task than it 
 The key point here is that robots are not adept at generalizing their knowledge to unseen environments, but humans are. Therefore, we can leverage this ability in humans by enabling them to correct robots' behavior through demonstration. A related topic is improving policies through constructive feedback.
 
 **Criteria for this use-case**
+
 * Reward is too difficult to specify.
 * Demonstrator is easily available.
 * Demonstrator is willing to demonstrate enough trajectories to cover the state space expected by the agent.
