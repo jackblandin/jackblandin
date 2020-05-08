@@ -1,5 +1,5 @@
 +++
-title = "Real-world Applications of Imitation Learning"
+title = "Potential Real-world Applications of Imitation Learning"
 date = 2020-05-07T13:57:28-05:00
 draft = false
 tags = []
@@ -11,13 +11,13 @@ In this post, I enumerate potential real-world applications of Imitation Learnin
 
 ### Use-case 1: Learning when reward cannot be specified
 
-Sometimes, it is easier to get access to an expert demonstrating a task than it is to define the reward. This may be because the reward is too complex to encode. Alternatlivey, it might be because the reward is too specific for a task, and isn't worth a robot manufacturer spending the time to encode it. Consider Roombas, for example. Roombas come with a base policy that randomly changes directions in order to work in all home environments. However, we could improve this policy for the Roomba if we enabled the Roomba to learn from a human demonstrating the correct path to take for a particular household.
+Sometimes, it is easier to get access to an expert demonstrating a task than it is to define the reward. This may be because the reward is too complex to encode. Alternatively, it might be because the reward is too specific for a task, and isn't worth a robot manufacturer spending the time to encode it. Consider Roombas, for example. Roombas come with a base policy that randomly changes directions in order to work in all home environments. However, we could improve this policy for the Roomba if we enabled the Roomba to learn from a human demonstrating the correct path to take for a particular household.
 
 The key point here is that robots are not adept at generalizing their knowledge to unseen environments, but humans are. Therefore, we can leverage this ability in humans by enabling them to correct robots' behavior through demonstration. A related topic is improving policies through constructive feedback.
 
 **Criteria for this use-case**
 
-* Reward is too difficult to specify.
+I Reward is unknown to robot programmer or is too difficult to specify.
 * Demonstrator is easily available.
 * Demonstrator is willing to demonstrate enough trajectories to cover the state space expected by the agent.
 * Embodiments are similar between demonstrator and learner.

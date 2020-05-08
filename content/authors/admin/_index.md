@@ -15,9 +15,10 @@ role: Data Scientist, PhD student
 # Organizations/Affiliations
 organizations:
 - name: GoHealth
-  url: ""
+  url: "https://www.gohealthinsurance.com/"
 
 - name: University of Illinois at Chicago
+  url: "https://cs.uic.edu/"
 
 # Picture
 picture: gohealth.png
@@ -28,6 +29,8 @@ bio: Data Scientist and PhD student interested in Reinforcement Learning and Imi
 interests:
 - Artificial Intelligence
 - Machine Learning
+- Reinforcement Learning
+- Imitation Learning
 
 education:
   courses:
@@ -71,6 +74,6 @@ user_groups:
 - Visitors
 ---
 
-Jack Blandin is a 2nd year Ph.D. student at the University of Illinois at Chicago under the advisership of Piotr Gmytraciewicz. His research interests include Reinforcement Learning and Imitation Learning.
+Jack Blandin is a 2nd year Computer Science Ph.D. student at the University of Illinois at Chicago under the advisership of Piotr Gmytraciewicz. His research interests include Reinforcement Learning and Imitation Learning. Prior to his Ph.D., Jack received his M.S. in Software Engineering from Loyola University Chicago and his B.S. in Physics from the University of Illinois at Champaign/Urbana.
 
-In addition to pursuing his Ph.D, Jack is the Lead Data Scientist at [GoHealth](https://www.gohealthinsurance.com/).
+In addition to pursuing his Ph.D, Jack is the Lead Data Scientist at GoHealth in Chicago, Illinois. Prior to GoHealth, Jack worked as a Data Scientist and Software Engineer at Trunk Club.
